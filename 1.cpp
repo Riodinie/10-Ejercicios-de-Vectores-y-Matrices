@@ -1,26 +1,29 @@
-/*Dados dos vectores numéricos diseñar un código que identifique y muestre los números que tienen en común.*/
+/*1. Dados dos vectores numÃºricos diseÃ±ar un cÃ³digo que identifique y muestre los nÃºmeros que tienen en comÃºn.*/
 
 #include <iostream>
 
 using namespace std;
 
-int main(){
-	
-int vector1[] = {1, 2, 3, 4, 5};
-int vector2[] = {1, 5, 3, 8, 9};
-	
-	cout<<"\nLos vectores 1 y 2 tienen en comun los numeros: ";
-	
-	
-	for(int i=0; i<5; i++){
-		
-		for(int j=0; j<5; j++){
-			
-			if(vector1[i] == vector2[j]){
-				cout<<vector1[i]<<" "; 
+int main()
+{
+
+	int vector1[] = {1, 2, 3, 4, 5};
+	int vector2[] = {1, 5, 3, 8, 9};
+
+	cout << "\nLos vectores 1 y 2 tienen en comÃºn los nÃºmeros: ";
+
+	for (int i = 0; i < 5; i++)
+	{
+
+		for (int j = 0; j < 5; j++)
+		{
+
+			if (vector1[i] == vector2[j])
+			{
+				cout << vector1[i] << " ";
 			}
 		}
 	}
-	
+
 	return 0;
 }
