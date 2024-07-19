@@ -17,11 +17,11 @@ Deberá llenar la matriz de forma aleatoria para el mes de mayo donde el primer 
 
 5. Dadas dos matrices: A[m][n] y B[n][m], diseñar un código para comprobar si la matriz B es la traspuesta de A.
 
-6. Diseñar un código para determinar si dos matrices son iguales; es decir, verificar si para todos los elementos se cumple que A[i][j] = B[i][j] 11.
+6. Diseñar un código para determinar si dos matrices son iguales; es decir, verificar si para todos los elementos se cumple que A[i][j] = B[i][j].
 
 7. Diseñar un código para determinar si dos matrices contienen los mismos elementos, aunque estos no se presenten en el mismo orden.
 
-8.Diseñar un código para determinar si una matriz es simétrica.
+8. Diseñar un código para determinar si una matriz es simétrica.
 
 9. Defina una matriz de tamaño 3x4. Debe solicitar un número  y multiplicar cada elemento de la matriz por este número. Finalmente, el programa debe imprimir la matriz original y la matriz resultante después de la multiplicación.
 
